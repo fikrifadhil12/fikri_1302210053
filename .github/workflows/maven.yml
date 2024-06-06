@@ -36,4 +36,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=fikrifadhil12 -Dsonar.projectKey=fikrifadhil12_fikri_130220053
+        run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=fikrifadhil12 -Dsonar.projectKey=fikrifadhil12_fikri_1302210053
